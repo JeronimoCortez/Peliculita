@@ -62,8 +62,7 @@ Para que funcione en un entorno nuevo:
    (y la URL equivalente de producción cuando exista).
 4. **Variables de entorno**: copiá `NEXT_PUBLIC_SUPABASE_URL` y
    `NEXT_PUBLIC_SUPABASE_ANON_KEY` desde Project Settings > API a
-   `.env.local` (no se versiona; `.env` solo deja las claves
-   declaradas como base).
+   `.env.local` (no se versiona).
 
 El login con email/contraseña no necesita configuración adicional: Supabase
 lo tiene activado por defecto (Authentication > Providers > Email).

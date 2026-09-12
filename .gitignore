@@ -23,7 +23,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files (.env se versiona como base; overrides/secretos locales no)
+# env files (nunca se versionan)
+.env
 .env*.local
 
 # vercel
