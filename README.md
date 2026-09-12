@@ -62,7 +62,7 @@ Para que funcione en un entorno nuevo:
    (y la URL equivalente de producción cuando exista).
 4. **Variables de entorno**: copiá `NEXT_PUBLIC_SUPABASE_URL` y
    `NEXT_PUBLIC_SUPABASE_ANON_KEY` desde Project Settings > API a
-   `frontend/.env.local` (no se versiona; `.env` solo deja las claves
+   `.env.local` (no se versiona; `.env` solo deja las claves
    declaradas como base).
 
 El login con email/contraseña no necesita configuración adicional: Supabase
@@ -74,7 +74,6 @@ arrancar la app en vez de fallar en silencio.
 ## Cómo correr
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
